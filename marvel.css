@@ -10,8 +10,18 @@
  (desktops, 992px  and up) */
 @media screen and (max-width: 992px) {
     .slider_part {
-        top: 25% ;
+        top: 25%;
         left: 20%;
+    }
+
+    .responsive_head_con h1 {
+        font-size: 20px;
+        padding: 38px 0 10px 0;
+        color: blue;
+    }
+
+    .responsive_head_con h1::after {
+        font-size: 2.3rem;
     }
 
 }
@@ -21,10 +31,10 @@
 @media screen and (max-width: 768px) {
 
     .slider_part {
-        top: 20% ;
+        top: 20%;
         left: 15%;
     }
-    
+
     .slider_head_text h1 {
         font-size: 2.5rem;
     }
@@ -84,14 +94,25 @@
     .carousel-indicators {
         margin-bottom: -1rem !important;
         margin-right: 10% !important;
-
     }
 
+    /*  */
+    .about_text_con p {
+        padding: 0px 20px !important;
+    }
 
+    .about_secend_head_con h4 {
+        font-size: 25px !important;
+        padding: 10px 50px;
+    }
 
 }
 
 /* ======================== */
+
+
+
+
 /*======== google font============= */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Mulish:wght@400;500;600&display=swap');
 
@@ -256,7 +277,7 @@ a:hover {
 
 .about_head_con h1 {
     position: relative;
-    padding: 45px 0 10px 0;
+    padding: 50px 0 10px 0;
     font-size: 30px;
     font-weight: 600;
     color: #444444;
@@ -277,9 +298,9 @@ a:hover {
     transform: translateX(-50%);
 }
 
-.about_first_para_con {
-    padding: 20px 0;
-    height: 56vmax;
+.about_part {
+    padding: 90px 0;
+    height: 100%;
     background-image: url("img/about_bg_img.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -383,7 +404,7 @@ a:hover {
 }
 
 .about_secend_head_con h4 {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 30px;
     color: #444444;
 }
@@ -403,9 +424,8 @@ a:hover {
 /* ===========About Section============= */
 /* ==========Boost Your Website=========== */
 .responsive_website_part {
-    height: 40vmax;
+    height: 100%;
     background-image: url("img/Optimize_Device_BG_img.png");
-
     background-repeat: no-repeat;
     background-size: cover;
 }

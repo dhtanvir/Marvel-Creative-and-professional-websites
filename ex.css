@@ -1,0 +1,149 @@
+/* ==============About Section========= */
+
+.about_head_con h1 {
+    position: relative;
+    padding: 50px 0 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about_head_con h1::after {
+    content: "ABOUT";
+    display: block;
+    position: absolute;
+    color: #000;
+    font-size: 90px;
+    font-weight: 900;
+    opacity: 0.1;
+    top: -13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about_part {
+    padding: 90px 0;
+    height:100% ;
+    background-image: url("img/about_bg_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_text_con p {
+    padding: 0px 190px;
+}
+
+.btn-info {
+    margin: 0px 10px;
+    width: 150px;
+    height: 50px;
+    background: #000;
+    color: #ffe400;
+    border: none;
+}
+
+.btn-info:hover {
+    background: #ffe400;
+    color: #000;
+    border: none;
+}
+
+/* ========service_card_part============ */
+.service_card_con {
+    position: relative;
+    height: 400px;
+    width: 350px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_img {
+    gap: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.card_img h5 {
+    color: #fff;
+}
+
+.service_overlay {
+    position: absolute;
+    background: #ffe400;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all 0.3s linear;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.card_overlay {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.card_overlay img {
+    padding: 10px 0;
+    filter: invert(0%) sepia(100%) saturate(23%) hue-rotate(108deg) brightness(100%) contrast(150%);
+}
+
+.card_overlay h5 {
+    padding: 10px 0;
+    color: #fff;
+
+}
+
+.card_overlay p {
+    padding: 0px 25px;
+    color: #fff;
+    z-index: 0;
+}
+
+.round_shap {
+    position: absolute;
+    top: 64%;
+    right: -20%;
+    opacity: .9;
+    z-index: -1;
+}
+
+.service_card_con:hover .service_overlay {
+    opacity: 1;
+}
+
+/* ========service_card_part============== */
+/* ======about_secend_part================= */
+.about_secend_part {
+    padding: 20px 0;
+}
+
+.about_secend_head_con h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #444444;
+}
+
+.about_secend_text h2 {
+    font-weight: 700;
+    font-size: 46px;
+    color: #444444;
+    margin: 0;
+}
+
+.about_secend_text p {
+    color: #757575;
+}
+
+/* ======about_secend_part================= */
+/* ===========About Section============= */
