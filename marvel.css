@@ -57,6 +57,9 @@
         width: 80px;
 
     }
+    .about_text_con p {
+        padding: 0px 50px !important;
+    }
 
 }
 
@@ -308,7 +311,7 @@ a:hover {
 }
 
 .about_text_con p {
-    padding: 0px 190px;
+    padding: 0px 120px;
 }
 
 .btn-info {
